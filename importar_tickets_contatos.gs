@@ -10,7 +10,7 @@
  *   3. Cria os tickets já associados aos contatos criados no passo anterior.
  */
 function importarTicketsComContatosFicticios() {
-  const token = "SUA_CHAVE_AQUI";
+  const token = "nunca comite a chave real";
   const headers = { "Authorization": "Bearer " + token, "Content-Type": "application/json" };
 
   // PASSO 1: descobrir o associationTypeId correto entre tickets e contacts
