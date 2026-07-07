@@ -6,7 +6,7 @@
  * para confirmar que a autenticação está funcionando.
  */
 function testarConexaoHubSpot() {
-  const token = "SUA_CHAVE_AQUI"; // Service Key gerada em Development > Keys > Service keys
+  const token = "nunca comite a chave real"; // Service Key gerada em Development > Keys > Service keys
   const url = "https://api.hubapi.com/crm/v3/objects/contacts?limit=5";
 
   const options = {
