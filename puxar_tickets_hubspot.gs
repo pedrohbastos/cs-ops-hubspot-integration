@@ -7,7 +7,7 @@
  * atualizar_sem_apagar.gs.
  */
 function puxarTicketsHubSpotParaPlanilha() {
-  const token = "SUA_CHAVE_AQUI";
+  const token = "nunca comite a chave real";
   const url = "https://api.hubapi.com/crm/v3/objects/tickets?limit=100&properties=subject,hs_pipeline_stage";
 
   const options = {
